@@ -12,6 +12,6 @@ def home(request):
     return render(request, "index.html", context)
 
 def home2(request):
-    movies = Movie.object.all()
-    return render(request, "home.html", {'movies': moveis})
+    movies = Movie.objects.all()
+    return render(request, "home.html", {'movies': movies})
     
