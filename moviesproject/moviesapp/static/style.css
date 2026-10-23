@@ -26,3 +26,20 @@ body {
 .card {
     border: 2px solid black;
 }
+
+.nav {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.nav a {
+    color: #b9b6e0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav a.active,
+.nav a:hover {
+    color: white;
+}
